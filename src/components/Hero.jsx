@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
-import { logo } from '../assets';
+import { motion } from "framer-motion";
+import { logo } from "../assets";
 
-import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -10,14 +10,14 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-5 h-5 rounded-full bg-[#0059ff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         <div className="flex flex-wrap gap-10">
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915EFF]">Sultan</span>
+              Hi, I'm <span className="text-[#0059ff]">Sultan</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I Develop Frontend Part of Websites, User <br className="sm:block hidden" />
