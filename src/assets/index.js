@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import crypto from "./crypto.png";
 import lyriks from "./lyriks.png";
-import tripguide from "./tripguide.png";
+import shareme from "./Shareme.png";
 
 import gs from "./gs.jpg";
 import fl from "./Fl.png";
@@ -36,6 +36,8 @@ import fl from "./Fl.png";
 import instagram from "./contact/instagram.png";
 import linkedin from "./contact/linkedin.png";
 import telegram from "./contact/telegram.png";
+
+import threedots from "./threedots.png";
 
 export {
   logo,
@@ -64,11 +66,12 @@ export {
   starbucks,
   tesla,
   crypto,
-  tripguide,
+  shareme,
   gs,
   fl,
   lyriks,
   telegram,
   linkedin,
   instagram,
+  threedots,
 };

@@ -12,10 +12,10 @@ import {
   mongodb,
   git,
   crypto,
-  tripguide,
   gs,
   fl,
   lyriks,
+  shareme,
 } from "../assets";
 
 export const navLinks = [
@@ -143,7 +143,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cryptobase",
     description:
       "Web application for tracking the rate of cryptocurrencies, with additional functionality.",
     tags: [
@@ -162,6 +162,7 @@ const projects = [
     ],
     image: crypto,
     source_code_link: "https://github.com/SULAJSJS/Crypto-app",
+    source_demo_link: "https://cryptobase-f0166.web.app/",
   },
   {
     name: "Lyriks - Spotify Clone",
@@ -183,27 +184,29 @@ const projects = [
     ],
     image: lyriks,
     source_code_link: "https://github.com/SULAJSJS/Lyriks",
+    source_demo_link: "https://lyriks-chi.vercel.app",
   },
   {
-    name: "Trip Guide",
+    name: "Share Me",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Share me is the social media application for post and find design ideas or something like that. This app have many features like commenting posts and save",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shareme,
+    source_code_link: "https://github.com/Sultanchikk/Shareme-app",
+    source_demo_link: "https://shareme-site.netlify.app/",
   },
 ];
 
