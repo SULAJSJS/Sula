@@ -21,17 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import crypto from "./crypto.png";
-import lyriks from "./lyriks.png";
-import shareme from "./Shareme.png";
-
 import gs from "./gs.jpg";
-import fl from "./Fl.png";
+import fl from "./fl.png";
 
 import instagram from "./contact/instagram.png";
 import linkedin from "./contact/linkedin.png";
@@ -61,15 +52,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  crypto,
-  shareme,
   gs,
   fl,
-  lyriks,
   telegram,
   linkedin,
   instagram,

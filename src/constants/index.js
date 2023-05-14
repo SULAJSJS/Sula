@@ -11,11 +11,8 @@ import {
   nodejs,
   mongodb,
   git,
-  crypto,
   gs,
   fl,
-  lyriks,
-  shareme,
 } from "../assets";
 
 export const navLinks = [
@@ -160,7 +157,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crypto,
+    image: "https://i.ibb.co/8jZ7XwV/crypto.png",
     source_code_link: "https://github.com/SULAJSJS/Crypto-app",
     source_demo_link: "https://cryptobase-f0166.web.app/",
   },
@@ -182,7 +179,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: lyriks,
+    image: "https://i.ibb.co/nRkTGy3/lyriks.png",
     source_code_link: "https://github.com/SULAJSJS/Lyriks",
     source_demo_link: "https://lyriks-chi.vercel.app",
   },
@@ -204,7 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: shareme,
+    image: "https://i.ibb.co/NYL5Xc1/Shareme.png",
     source_code_link: "https://github.com/Sultanchikk/Shareme-app",
     source_demo_link: "https://shareme-site.netlify.app/",
   },

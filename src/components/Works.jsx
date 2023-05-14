@@ -27,7 +27,12 @@ const ProjectCard = ({
           {isShown && (
             <ProjectLinks source_code_link={source_code_link} source_demo_link={source_demo_link} />
           )}
-          <img src={image} alt="project_image" className="w-full h-full object-cover rounded-2xl" />
+          <img
+            loading="lazy"
+            src={image}
+            alt="project_image"
+            className="w-full h-full object-cover rounded-2xl"
+          />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover"></div>
         </div>
