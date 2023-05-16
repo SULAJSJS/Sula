@@ -3,6 +3,7 @@ import { logo } from "../assets";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Resume from "../assets/Sultan.pdf";
 
 const Hero = () => {
   return (
@@ -23,6 +24,11 @@ const Hero = () => {
               I Develop Frontend Part of Websites, User <br className="sm:block hidden" />
               Interfaces and Web Applications
             </p>
+            <button className="w-[150px] h-[40px] bg-blue-700 rounded shadow-md shadow-card mt-10">
+              <a href={Resume} download>
+                Download CV
+              </a>
+            </button>
           </div>
           <div className="shadow-card">
             <img className="w-[400px] rounded-3xl shadow-md" src={logo} alt="" />
